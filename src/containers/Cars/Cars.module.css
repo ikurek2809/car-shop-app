@@ -1,0 +1,94 @@
+.Container {
+    display: flex;
+    width: 1000px;
+    height: 98vh;
+    border: 1px solid black;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.Title {
+    display: flex;
+    border: 1px solid black;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopContainer {
+    display: flex;
+    border: 1px solid black;
+    height: 15%;
+}
+
+.CarBrandsContainer {
+    display: flex;
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.CarBrandsContainer h4 {
+    margin-left: 15px;
+}
+
+.CarListTitleContainer {
+    display: flex;
+    border: 1px solid black;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ContentContainer {
+    display: flex;
+    border: 1px solid black;
+    height: 70%;
+}
+
+.CarModelsContainer {
+    border: 1px solid black;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    overflow: scroll;
+
+}
+
+.CarModelsContainer h4 {
+    margin-left: 15px;
+}
+
+.CarListContainer {
+    border: 1px solid black;
+    display: flex;
+    width: 40%;
+    height: 100%;
+}
+
+.CarBrandsDropDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CarListTitle {
+    text-align: left;
+    width: 80%;
+    height: 80%;
+}
+
+.Search {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+

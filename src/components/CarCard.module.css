@@ -1,0 +1,40 @@
+.CarCard {
+    margin-top: 30px;
+    height: 80px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CarCardButton {
+    margin-right: 15px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.CarCardTitle {
+    margin-left: 15px;
+}
+
+
+.RemoveButton {
+    background-color: #04AA6D; /* Green */
+    margin-right: 15px;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}
